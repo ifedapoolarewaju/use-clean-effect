@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "An extension of React useEffect without the need for clean-up functions",
   "main": "dist/index.js",
+  "browser": "dist/use-clean-effect.min.js",
   "files": [
     "dist"
   ],
