@@ -1,0 +1,43 @@
+{
+  "name": "use-clean-effect",
+  "version": "0.1.0",
+  "description": "An extension of the useEffect react hook which self cleans for cases where async calls are made within the effect function",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "rollup": "rollup -c",
+    "test-build": "npm run build && node test-build.js",
+    "prepublishOnly": "npm run test-build && npm run rollup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifedapoolarewaju/use-clean-effect.git"
+  },
+  "keywords": [
+    "react",
+    "useEffect",
+    "use-effect",
+    "hooks",
+    "hook",
+    "async-use-effect"
+  ],
+  "author": "Ifedapo Olarewaju",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ifedapoolarewaju/use-clean-effect/issues"
+  },
+  "homepage": "https://github.com/ifedapoolarewaju/use-clean-effect#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.14",
+    "react": "^18.2.0",
+    "rollup": "^2.75.7",
+    "rollup-plugin-babel-minify": "^10.0.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "typescript": "^4.7.4"
+  }
+}
