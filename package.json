@@ -1,7 +1,7 @@
 {
   "name": "use-clean-effect",
   "version": "0.1.0",
-  "description": "An extension of the useEffect react hook which self cleans for cases where async calls are made within the effect function",
+  "description": "An extension of React useEffect without the need for clean-up functions",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -23,7 +23,8 @@
     "use-effect",
     "hooks",
     "hook",
-    "async-use-effect"
+    "async-use-effect",
+    "use-clean-effect"
   ],
   "author": "Ifedapo Olarewaju",
   "license": "MIT",
@@ -31,6 +32,9 @@
     "url": "https://github.com/ifedapoolarewaju/use-clean-effect/issues"
   },
   "homepage": "https://github.com/ifedapoolarewaju/use-clean-effect#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
   "devDependencies": {
     "@types/react": "^18.0.14",
     "react": "^18.2.0",
