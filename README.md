@@ -42,6 +42,8 @@ useCleanEffect((phase) => {
 
 The `phase` argument is an object that contains a boolean field `active` which has the value `true` if the component hasn't been unmounted or re-rendered since the `useEffect` callback was triggered. And is `false` otherwise (in which case, we should abort the function to avoid memory leak).
 
+### Additional clean-up Function
+
 For most cases you won't need to add a clean up function to your `useCleanEffect` callback, since it implicitly handles the clean-up logic. However, if your use-case requires that you spcecifically handle a clean-up logic, you can still return your clean-up function the way you would do it for React's `useEffect`.
 
 ```js
