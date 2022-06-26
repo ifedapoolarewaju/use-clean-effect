@@ -1,6 +1,6 @@
 # use-clean-effect
 
-An extended version of React useEffect that is built-in with a simple clean-up function, hence you may not need to add your own clean-up function when using this.
+An extended version of React useEffect that is built-in with a simple clean-up function, hence, you may not need to add your own clean-up function when using this.
 
 It also passes an argument to the useEffect callback that indicates if the component has been unmounted or re-rendered. Therefore, making it easy to invoke async functions in your useEffect callback and avoid memory leaks and removing the need for you to add a clean-up function.
 

@@ -28,4 +28,3 @@ export function useCleanEffect(effect: EffectCallback, deps: DependencyList) {
     }, deps)
 }
 
-Object.assign(module.exports, useCleanEffect)

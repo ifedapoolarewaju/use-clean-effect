@@ -1,5 +1,5 @@
 const assert = require("assert");
-const { useCleanEffect } = require("./dist");
+const { useCleanEffect } = require("./dist/main");
 
 assert.equal(typeof useCleanEffect, "function");
 
