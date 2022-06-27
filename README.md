@@ -44,7 +44,7 @@ The `phase` argument is an object that contains a boolean field `active` which h
 
 ### Additional clean-up Function
 
-For most cases you won't need to add a clean up function to your `useCleanEffect` callback, since it implicitly handles the clean-up logic. However, if your use-case requires that you spcecifically handle a clean-up logic, you can still return your clean-up function the way you would do it for React's `useEffect`.
+For most cases you won't need to add a clean up function to your `useCleanEffect` callback, since it implicitly handles the clean-up logic. However, if your use-case requires that you specifically handle a clean-up logic, you can still return your clean-up function the way you would do it for React's `useEffect`.
 
 ```js
 import { useCleanEffect } from 'use-clean-effect'
