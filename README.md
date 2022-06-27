@@ -30,7 +30,7 @@ useCleanEffect((phase) => {
     // an asynchronous call
     someHttpRequest().then((data) => {
         if (!phase.active) {
-            // component has been unmounted/re-rendered so we abort to avouid memory-leak
+            // component has been unmounted/re-rendered so we abort to avoid memory-leak
             return
         }
 
